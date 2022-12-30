@@ -28,7 +28,7 @@ class _MyApp extends State<MyApp> {
               return Card(
                 child: ListTile(
                   onTap: () {},
-                  title: Text(_list[index].toString()),
+                  title: (_list[index]),
                 ),
               );
             }
